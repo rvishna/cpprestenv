@@ -9,14 +9,7 @@ RUN apt-get update && apt-get -y --no-install-recommends install \
     make \
     lldb \
     libssl-dev \
-    libboost-system-dev \
-    libboost-filesystem-dev \
-    libboost-chrono-dev \
-    libboost-date-time-dev \
-    libboost-atomic-dev \
-    libboost-thread-dev \
-    libboost-regex-dev \
-    libboost-random-dev \
+    libboost-all-dev \
     libz-dev \
     libtinfo5 \
     libcurl4-openssl-dev
